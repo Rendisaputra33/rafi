@@ -31,11 +31,11 @@
 }
 
 .news__title {
-  @apply text-2xl font-bold mt-1;
+  @apply text-2xl font-bold mt-1 text-white;
 }
 
 .news__puplished {
-  @apply text-sm font-light italic;
+  @apply text-sm font-light italic text-white;
 }
 
 .dropdown {
@@ -67,4 +67,16 @@
 
 .news__bottom {
   @apply grid grid-rows-6 gap-6 grid-flow-col;
+}
+
+footer {
+  @apply p-10 bg-main flex justify-center items-center;
+}
+
+footer div {
+  @apply w-[80vw] font-semibold;
+}
+
+.img-right {
+  @apply w-[100px] h-[60px] rounded-md md:w-[130px] md:h-[90px] xl:w-[200px] xl:h-[150px];
 }
