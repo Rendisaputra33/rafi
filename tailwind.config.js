@@ -7,6 +7,9 @@ module.exports = {
         main: "#FFC857",
       },
     },
+    fontFamily: {
+      Poppins: ["Poppins"],
+    },
   },
   plugins: [],
 };

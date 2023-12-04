@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -79,4 +81,52 @@ footer div {
 
 .img-right {
   @apply w-[100px] h-[60px] rounded-md md:w-[130px] md:h-[90px] xl:w-[200px] xl:h-[150px];
+}
+
+.main__container {
+  @apply w-[90vw] p-6 flex justify-center items-center flex-col;
+}
+
+.profile {
+  @apply flex flex-col justify-center items-center;
+}
+
+.profile h2 {
+  @apply mt-3 font-semibold text-lg font-Poppins text-white;
+}
+
+.profile button {
+  @apply bg-white px-4 py-1 cursor-pointer rounded-md text-black mt-3 font-Poppins;
+}
+
+.forms {
+  @apply bg-white w-full mt-12 rounded-md p-3;
+}
+
+.forms nav {
+  @apply flex flex-row justify-center items-center w-full border-b border-b-black;
+}
+
+.forms nav a {
+  @apply px-6 font-Poppins py-2 font-medium hover:bg-main hover:text-white;
+}
+
+.forms button {
+  @apply mt-4 p-2 bg-main w-full rounded-md font-medium;
+}
+
+.forms form {
+  @apply grid grid-cols-2 gap-4 mt-4 mb-4;
+}
+
+.forms form .input-custom {
+  @apply flex flex-col;
+}
+
+.forms form .input-custom input {
+  @apply bg-slate-300 p-2 rounded-md mt-2 outline-none;
+}
+
+.forms form .input-custom label {
+  @apply font-Poppins text-sm;
 }
