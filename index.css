@@ -130,3 +130,63 @@ footer div {
 .forms form .input-custom label {
   @apply font-Poppins text-sm;
 }
+
+.forms table {
+  @apply w-full mt-6 table-fixed;
+}
+
+.form table tr .id {
+  @apply w-1/6;
+}
+
+.form table tr .half {
+  @apply w-2/6;
+}
+
+.borders {
+  @apply border border-black;
+}
+
+.form .head {
+  @apply bg-main;
+}
+
+.table-content-center {
+  @apply text-center;
+}
+
+.container__input__data {
+  @apply grid grid-cols-2 w-full;
+}
+
+.container__input__data .form__section {
+  @apply w-full p-3 flex flex-col bg-main font-Poppins;
+}
+
+.container__input__data .form__section h1 {
+  @apply font-medium text-lg;
+}
+
+.container__input__data .form__section hr {
+  @apply divide-y divide-black;
+}
+
+.container__input__data .navigator__form__section {
+  @apply flex flex-row justify-center w-full p-6;
+}
+
+#nav__container a:hover {
+  @apply bg-main;
+}
+
+.container__input__data .form__section__grid {
+  @apply grid grid-cols-2 bg-main font-Poppins;
+}
+
+.item__input__document {
+  @apply flex flex-row justify-center items-center p-5 border border-black my-4 bg-white w-[100%];
+}
+
+.container__save__document {
+  @apply flex flex-col justify-center items-center ml-4;
+}

@@ -815,3 +815,107 @@ footer div{
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
+
+.forms table{
+  margin-top: 1.5rem;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.form table tr .id{
+  width: 16.666667%;
+}
+
+.form table tr .half{
+  width: 33.333333%;
+}
+
+.borders{
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
+.form .head{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 200 87 / var(--tw-bg-opacity));
+}
+
+.table-content-center{
+  text-align: center;
+}
+
+.container__input__data{
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.container__input__data .form__section{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 200 87 / var(--tw-bg-opacity));
+  padding: 0.75rem;
+  font-family: Poppins;
+}
+
+.container__input__data .form__section h1{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+}
+
+.container__input__data .form__section hr > :not([hidden]) ~ :not([hidden]){
+  --tw-divide-y-reverse: 0;
+  border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
+  border-bottom-width: calc(1px * var(--tw-divide-y-reverse));
+  --tw-divide-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-divide-opacity));
+}
+
+.container__input__data .navigator__form__section{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+#nav__container a:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 200 87 / var(--tw-bg-opacity));
+}
+
+.container__input__data .form__section__grid{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 200 87 / var(--tw-bg-opacity));
+  font-family: Poppins;
+}
+
+.item__input__document{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  padding: 1.25rem;
+}
+
+.container__save__document{
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
